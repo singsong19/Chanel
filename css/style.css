@@ -1,0 +1,184 @@
+@charset "utf-8";
+* {margin: 0; padding: 0;}
+
+
+li {
+    list-style: none;
+}
+a{
+    color:inherit;
+    text-decoration:none;
+}
+h5 {
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Setting */
+/* Start header list*/
+#wrap {
+    width: 1320px;
+}
+.logo {
+    margin: 0 auto;
+    background-image: url(../images/LOGO.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+}
+.intro {
+    float:right;
+    margin-top: 30px;
+}
+.menu a {
+    float: left;
+    padding: 30 30 30 30px;
+}
+.menu p:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.cate {
+    margin-left: 30px;
+}
+.GNB li{
+    float: left;
+    margin-right: 20px;
+}
+/* End header list */
+/* Start Detail menu */
+.main {
+    margin-top: 30px;
+    background-color: black;
+    width: 100%;
+    height: 300px;
+}
+.trend {
+    color: white;
+}
+.pager a {
+    color: #ccc;
+    width:14px;
+    height:14px;
+    border-radius:50%;
+    float: left;
+}
+/* End Detail menu */
+/* Start 이달의 기획전 */
+.promotion {
+    margin: 0 center;
+}
+.a {
+    
+    background-image: url(../images/promotion_1.jpg);
+}
+.b {
+    background-image: url(../images/promotion_2.png);
+}
+.c {
+    background-image: url(../images/promotion_3.jpg);
+}
+.item {
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+.p {
+    float: left;
+    margin-right: 40px;
+}
+.p:nth-last-child() {
+    margin-right: 0px;
+}
+.up {
+    font-size: 11px;
+}
+.down{
+    font-size: 12px;
+}
+.box:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+/* End 이달의 기획전 */
+/* Start 베스트 특가 아이템 */
+.color {
+    background-image: url(../images/best_1.jpg);
+}
+.besti {
+    background-size: contain;
+    width: 200px;
+    height: 300px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 40px;
+}
+.collection {
+    background-image: url(../images/best_2.jpg);
+    width: 300px;
+    height: 400px;
+    margin-top: 0px;
+}
+.summer {
+    background-image: url(../images/best_3.jpeg);
+
+}
+.besti:last-child {
+    margin-right: 0px;
+}
+.best::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.best p{
+    color:white;
+}
+.t {
+    margin-top: 200px;
+}
+/* End 베스트 특가 아이템 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
