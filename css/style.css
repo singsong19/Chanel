@@ -1,7 +1,6 @@
 @charset "utf-8";
 * {margin: 0; padding: 0;}
 
-
 li {
     list-style: none;
 }
@@ -14,14 +13,24 @@ h5 {
     margin-top: 80px;
     margin-bottom: 30px;
     text-align: center;
+    width: 980px;
+    margin: 0 auto;
 }
+
+.wrap {
+    width: 980px;
+    margin: 0 auto;
+}
+
 
 /* Setting */
 /* Start header list*/
-#wrap {
-    width: 1320px;
+
+header {
+    position: relative;
 }
 .logo {
+    display: block;
     margin: 0 auto;
     background-image: url(../images/LOGO.jpg);
     background-size: cover;
@@ -32,23 +41,37 @@ h5 {
 }
 .intro {
     float:right;
-    margin-top: 30px;
 }
-.menu a {
+.menu  {
     float: left;
     padding: 30 30 30 30px;
 }
-.menu p:after {
+.menu a {
     display: block;
-    content: "";
-    clear: both;
+    background-image: url(../images2/menubar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
 }
 .cate {
-    margin-left: 30px;
+    margin-left: 5px;
 }
 .GNB li{
     float: left;
     margin-right: 20px;
+}
+.GNB {
+    margin-left: 25px;
+}
+.line {
+    float: left;
+    margin-top: 50px;
+}
+.di:after {
+    display: block;
+    content: "";
+    clear: both;
 }
 /* End header list */
 /* Start Detail menu */
@@ -60,6 +83,7 @@ h5 {
 }
 .trend {
     color: white;
+    margin-left: 300px;
 }
 .pager a {
     color: #ccc;
@@ -70,11 +94,15 @@ h5 {
 }
 /* End Detail menu */
 /* Start 이달의 기획전 */
+.box {
+    width: 980px;
+    height: 400px;
+    margin: 0 auto;
+}
 .promotion {
     margin: 0 center;
 }
 .a {
-    
     background-image: url(../images/promotion_1.jpg);
 }
 .b {
@@ -82,6 +110,7 @@ h5 {
 }
 .c {
     background-image: url(../images/promotion_3.jpg);
+    margin-right: 0px;
 }
 .item {
     background-size: cover;
@@ -90,60 +119,98 @@ h5 {
     background-repeat: no-repeat;
 }
 .p {
+    width: 300px;
+    position: relative;
     float: left;
-    margin-right: 40px;
+    margin-right: 20px;
 }
-.p:nth-last-child() {
+.p:last-child() {
     margin-right: 0px;
 }
 .up {
-    font-size: 11px;
+    margin-top:30px;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left:10px;
 }
 .down{
-    font-size: 12px;
+    font-size: 11px;
+    margin-left: 10px;
+    margin-top: 4px;
 }
 .box:after {
     display: block;
     content: "";
     clear: both;
 }
+.black {
+    background-color: black;
+    border-radius: 5%;
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+    position: absolute;
+    margin-bottom: 30px;
+    left: 10px;
+}
 /* End 이달의 기획전 */
 /* Start 베스트 특가 아이템 */
-.color {
-    background-image: url(../images/best_1.jpg);
+.best1 {
+    width: 950px;
+    height: 400px;
+    margin: 0 auto;
 }
 .besti {
-    background-size: contain;
-    width: 200px;
-    height: 300px;
+    background-size: cover;
     background-repeat: no-repeat;
     float: left;
-    margin-right: 40px;
+    margin-right: 50px;
 }
-.collection {
+.besti:nth-child(1) {
+    width: 250px;
+    height: 350px;
+    background-image: url(../images/best_1.jpg);
+    margin-top: 50px;
+}
+.besti:nth-child(2) {
+    width: 350px;
+    height: 450px;
     background-image: url(../images/best_2.jpg);
-    width: 300px;
-    height: 400px;
-    margin-top: 0px;
 }
-.summer {
+.besti:nth-child(3) {
+    width: 250px;
+    height: 350px;
     background-image: url(../images/best_3.jpeg);
-
+    margin-top: 50px;
 }
 .besti:last-child {
     margin-right: 0px;
 }
-.best::after {
+.best1::after{
     display: block;
     content: "";
-    clear: both;
+    clear: left;
 }
-.best p{
-    color:white;
+
+.collection .mt{
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.besti p {
+    color: white;
 }
 .t {
     margin-top: 200px;
 }
+.subt {
+    font-size: 12px;
+    margin-left: 20px;
+    margin-bottom: 3px;
+}
+
+
 /* End 베스트 특가 아이템 */
 
 
