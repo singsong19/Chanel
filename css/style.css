@@ -16,13 +16,10 @@ h5 {
     width: 980px;
     margin: 0 auto;
 }
-
 .wrap {
     width: 980px;
     margin: 0 auto;
 }
-
-
 /* Setting */
 /* Start header list*/
 
@@ -53,6 +50,14 @@ header {
     background-size: cover;
     width: 30px;
     height: 30px;
+}
+.title1 {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.title2 {
+    /* margin-top: 80px; */
+    margin-bottom: 20px;
 }
 .cate {
     margin-left: 5px;
@@ -106,10 +111,10 @@ header {
     background-image: url(../images/promotion_1.jpg);
 }
 .b {
-    background-image: url(../images/promotion_2.png);
+    background-image: url(../images2/promotion_2.png);
 }
 .c {
-    background-image: url(../images/promotion_3.jpg);
+    background-image: url(../images2/promotion_3.jpg);
     margin-right: 0px;
 }
 .item {
@@ -172,27 +177,25 @@ header {
     background-image: url(../images/best_1.jpg);
     margin-top: 50px;
 }
-.besti:nth-child(2) {
+.collection {
     width: 350px;
     height: 450px;
-    background-image: url(../images/best_2.jpg);
+    background-image: url(../images2/best_2.jpg);
 }
-.besti:nth-child(3) {
+.summer {
     width: 250px;
     height: 350px;
-    background-image: url(../images/best_3.jpeg);
+    background-image: url(../images2/best_3.jpeg);
     margin-top: 50px;
-}
-.besti:last-child {
     margin-right: 0px;
 }
-.best1::after{
+.ggg::after{
     display: block;
     content: "";
     clear: left;
 }
 
-.collection .mt{
+.mt{
     font-weight: bold;
     font-size: 16px;
     margin-left: 20px;
@@ -207,7 +210,11 @@ header {
 .subt {
     font-size: 12px;
     margin-left: 20px;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
+}
+.gray{
+    height: 300px;
+    color: gray;
 }
 
 
