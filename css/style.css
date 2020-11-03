@@ -26,6 +26,16 @@ h5 {
 header {
     position: relative;
 }
+.text-field {
+    border-radius: 30px;
+    border-style: none;
+    background-color: rgb(199, 199, 199);
+    height: 24px;
+    width: 210px;
+    padding: 10px 10px;
+    margin-top: 24px;
+    margin-left: 30px;
+}
 .logo {
     display: block;
     margin: 0 auto;
@@ -300,8 +310,9 @@ header {
     margin-right: 50px;
 }
 
-
-
+content {
+    width: 980px;
+}
 /* End hot */
 
 
